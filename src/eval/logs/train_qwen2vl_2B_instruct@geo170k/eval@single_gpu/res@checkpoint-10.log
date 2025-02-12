@@ -1,0 +1,64 @@
+❰root|R1-V(grpo@mathscience)❱ /bin/python /workspace/linjh/github/R1-V/src/eval/test_qwen2vl_geoqa.py
+Loading checkpoint shards: 100%|████████████████| 2/2 [00:02<00:00,  1.12s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+  0%|                                                  | 0/16 [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/transformers/generation/configuration_utils.py:626: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.01` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.001` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/transformers/generation/configuration_utils.py:648: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Processed batch 1/16
+  6%|██▌                                      | 1/16 [01:47<26:47, 107.15s/it]Processed batch 2/16
+ 12%|█████▏                                   | 2/16 [03:32<24:46, 106.21s/it]Processed batch 3/16
+ 19%|███████▋                                 | 3/16 [05:23<23:26, 108.21s/it]Processed batch 4/16
+ 25%|██████████▎                              | 4/16 [07:13<21:46, 108.87s/it]Processed batch 5/16
+ 31%|████████████▊                            | 5/16 [08:58<19:42, 107.46s/it]Processed batch 6/16
+ 38%|███████████████▍                         | 6/16 [10:44<17:50, 107.04s/it]Processed batch 7/16
+ 44%|██████████████████▍                       | 7/16 [11:15<12:20, 82.27s/it]Processed batch 8/16
+ 50%|█████████████████████                     | 8/16 [13:03<12:02, 90.28s/it]Processed batch 9/16
+ 56%|███████████████████████▋                  | 9/16 [14:49<11:07, 95.32s/it]Processed batch 10/16
+ 62%|█████████████████████████▋               | 10/16 [16:37<09:55, 99.17s/it]Processed batch 11/16
+ 69%|███████████████████████████▌            | 11/16 [18:26<08:30, 102.13s/it]Processed batch 12/16
+ 75%|██████████████████████████████          | 12/16 [20:12<06:53, 103.41s/it]Processed batch 13/16
+ 81%|████████████████████████████████▌       | 13/16 [21:57<05:11, 103.98s/it]Processed batch 14/16
+ 88%|███████████████████████████████████     | Processed batch 15/16
+ 94%|█████████████████████████████████████▌  | 15/16 [25:28<01:44, 104.76s/it]Processed batch 16/16
+100%|█████████████████████████████████████████| 100%|█████████████████████████████████████████| 16/16 [26:32<00:00, 99.56s/it]
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+no answer parsed list index out of range []
+
+Accuracy: 12.86%
+Results saved to /workspace/linjh/github/R1-V/output/train@geo170k/eval@single_gpu/res@checkpoint-10.json
